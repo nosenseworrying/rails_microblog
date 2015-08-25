@@ -13,6 +13,7 @@ This Microblog site is a basic Twitter clone that is based off of the tutorials 
 * Using BitBucket/GitHub
 * Heroku
 * Testing
+* Guard
 * Twitter Bootstrap
 
 ## Models
