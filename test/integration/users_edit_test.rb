@@ -16,7 +16,7 @@ class UsersEditTest < ActionDispatch::IntegrationTest
     patch user_path(@user), user: { name: "", 
                                     email: "foo@invalid",
                                     password: "foo",
-                                    password: "bar" }
+                                    password_confirmation: "bar" }
     assert_template 'users/edit'
   end
 
